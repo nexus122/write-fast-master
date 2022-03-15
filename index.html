@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palabras por segundo</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="./style.css">
+
+    <script defer src="./js/words.js"></script>
+    <script defer src="./js/utils.js"></script>
+    <script defer src="./js/script.js"></script>
+
+</head>
+
+<body>
+    <main class="w3-container">
+        <div class="w3-half">
+            <h1 class="w3-panel w3-2020-coral-pink title">Palabras por segundo</h1>
+            <section id="next-word-card" class="w3-container w3-hide">
+                <div class="w3-padding-16" id="next-word"></div>
+            </section>
+            <section id="start-game">
+                <button class="w3-btn w3-2020-flame-scarlet w3-block">Empezar</button>
+            </section>
+        </div>
+        <div class="w3-half">
+            <section id="ranking-section">
+                <h1 class='title w3-panel w3-2020-coral-pink'>Ranking </h1>
+                <table class="w3-table" id='resultado'>
+                    <thead>
+                        <th>Palabra</th>
+                        <th>Tiempo</th>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </section>
+        </div>
+    </main>
+</body>
+
+</html>
